@@ -1,0 +1,41 @@
+{
+  "name": "gtm",
+  "description": "GIT Template Manager",
+  "version": "0.1.0",
+  "homepage": "https://github.com/atoledo/node-gtm",
+  "author": {
+    "name": "DoubleDome",
+    "email": "dadalasalsa@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atoledo/node-gtm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/atoledo/node-gtm/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/atoledo/node-gtm/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/gtm",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "preferGlobal": "true",
+  "bin": {
+    "gtm": "lib/gtm.js"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "nconf": "~0.6.x",
+    "optimist": "~0.6.0"
+  }
+}
