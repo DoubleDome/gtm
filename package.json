@@ -39,6 +39,7 @@
     "optimist": "~0.6.0",
     "git-wrapper": "~0.1.1",
     "prompt": "~0.2.11",
-    "request-json": "~0.3.7"
+    "request-json": "~0.3.7",
+    "async": "~0.2.9"
   }
 }
