@@ -36,10 +36,11 @@
   "dependencies": {
     "grunt": "~0.4.1",
     "nconf": "~0.6.x",
-    "optimist": "~0.6.0",
     "git-wrapper": "~0.1.1",
     "prompt": "~0.2.11",
     "request-json": "~0.3.7",
-    "async": "~0.2.9"
+    "async": "~0.2.9",
+    "nopt": "~2.1.1",
+    "underscore": "~1.5.1"
   }
 }
