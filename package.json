@@ -1,26 +1,26 @@
 {
-  "name": "gtm",
+  "name": "mashup",
   "description": "GIT Template Manager",
   "version": "0.1.0",
-  "homepage": "https://github.com/atoledo/node-gtm",
+  "homepage": "https://github.com/DoubleDome/mashup",
   "author": {
     "name": "DoubleDome",
     "email": "dadalasalsa@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/atoledo/node-gtm.git"
+    "url": "git://github.com/DoubleDome/mashup.git"
   },
   "bugs": {
-    "url": "https://github.com/atoledo/node-gtm/issues"
+    "url": "https://github.com/DoubleDome/mashup/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/atoledo/node-gtm/blob/master/LICENSE-MIT"
+      "url": "https://github.com/DoubleDome/mashup/blob/master/LICENSE-MIT"
     }
   ],
-  "main": "lib/gtm",
+  "main": "lib/mashup",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -31,7 +31,7 @@
   "keywords": [],
   "preferGlobal": "true",
   "bin": {
-    "gtm": "lib/gtm.js"
+    "mashup": "lib/mashup.js"
   },
   "dependencies": {
     "grunt": "~0.4.1",
