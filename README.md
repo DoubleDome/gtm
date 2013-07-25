@@ -102,4 +102,3 @@ mashup -l myregistry
 ```
 
 
-
