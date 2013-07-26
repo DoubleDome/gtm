@@ -53,50 +53,50 @@ By running `mashup register` you will be guided through a series of prompts allo
 
 ## Examples
 
-** Generate with prompts
+**Generate with prompts**
 ```
 mashup
 mashup generate
 mashup -g
 ```
 
-** Generate from registry with remote git prompt
+**Generate from registry with remote git prompt**
 ```
 mashup generate registry:template1
 mashup -g registry:template1
 ```
 
-** Generate from registry skipping remote git prompt
+**Generate from registry skipping remote git prompt**
 ```
 mashup generate registry:template1 --passive
 mashup -g registry:template1 -p
 ```
 
-** Generate from registry with remote git
+**Generate from registry with remote git**
 ```
 mashup generate registry:template1 --origin https://github.com/user/new-project
 mashup -g registry:template1 -o https://github.com/user/new-project
 ```
 
-** Add new registry with prompts
+**Add new registry with prompts**
 ```
 mashup register
 mashup -r
 ```
 
-** Add new registry bypassing prompts
+**Add new registry bypassing prompts**
 ```
 mashup register myregistry http://mydomain/path/registry.json
 mashup -r myregistry http://mydomain/path/registry.json
 ```
 
-** List available registries
+**List available registries**
 ```
 mashup list
 mashup -l
 ```
 
-** List available templates within a registry
+**List available templates within a registry**
 ```
 mashup list myregistry
 mashup -l myregistry
