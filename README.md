@@ -78,7 +78,7 @@ mashup -g registry:template1
 mashup generate registry:template1 --no-remote
 ```
 
-**Generate from registry with remote git url**
+**Generate from registry passing in a remote git url**
 ```
 mashup generate registry:template1 --remote https://github.com/user/new-project
 ```
