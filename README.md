@@ -24,7 +24,7 @@ Once you respond 'no' you will be prompted for a remote git url to push your new
 
 ### Generating from a registry
 
-A registry is beneficial when you repeatedly need to blend the same repos or automation scenarios. For instance, one repo can be the HTML 5 Boilerplate while the other may contain your grunt configuration. A registry is just a json file uploaded to a server which follows the format below:
+A registry is beneficial when you repeatedly need to blend the same repos or would like to automate the generation of projects. For instance, one repo can be the HTML 5 Boilerplate while the other may contain your grunt configuration. A registry is just a json file uploaded to a server which follows the format below:
 
 ```js
 {
