@@ -56,7 +56,7 @@ Once a registry has been added to `mashup` projects can be generated from the re
 
 ### Adding a registry
 
-By running `mashup register` you will be guided through a series of prompts allowing you to add a new registry. Power users can bypass the prompts with `mashup register [name] [jsonURL]`
+By running `mashup register` you will be guided through a series of prompts allowing you to add a new registry. Power users can bypass the prompts with `mashup register [name] [jsonURL]`.
 
 ## Examples
 
