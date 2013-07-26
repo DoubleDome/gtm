@@ -67,19 +67,19 @@ mashup generate
 mashup -g
 ```
 
-**Generate from registry with remote git prompt**
+**Generate from registry with remote git url prompt**
 ```
 mashup generate registry:template1
 mashup -g registry:template1
 ```
 
-**Generate from registry skipping remote git prompt**
+**Generate from registry skipping remote git url prompt**
 ```
 mashup generate registry:template1 --passive
 mashup -g registry:template1 -p
 ```
 
-**Generate from registry with remote git**
+**Generate from registry with remote git url**
 ```
 mashup generate registry:template1 --origin https://github.com/user/new-project
 mashup -g registry:template1 -o https://github.com/user/new-project
