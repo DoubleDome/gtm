@@ -1,7 +1,7 @@
 {
   "name": "mashup",
   "description": "Mashup allow you to blend two or more git repositories into one project.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "https://github.com/DoubleDome/mashup",
   "author": {
     "name": "DoubleDome",
