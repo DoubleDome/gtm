@@ -15,10 +15,10 @@ Getting started with `mashup` is pretty straight forward. There is one core comm
 
 Running `mashup generate` or `mashup` will present you with the following prompts:
 
-1. Enter a git address
+1. Enter a git url (http or ssh)
 1. Enter a destination folder
 1. Enter files to be cleaned out after cloning (follows mini-match standards), comma delimited
-1. Would you like to clone another? (back to 1)
+1. Would you like to clone another? (repeat step 1)
 
 Once you respond 'no' you will be prompted for a remote git to push your new project to.
 
@@ -31,7 +31,7 @@ A registry is beneficial when you repeatedly need to blend the same repos. For i
     "template1":{
         "source":[
             {
-                "git":"https://github.com/seanpowell/Email-Boilerplate.git",
+                "git":"https://github.com/h5bp/html5-boilerplate.git",
                 "dest":"build",
                 "clean":{
                     "files":["doc"]
@@ -46,6 +46,13 @@ A registry is beneficial when you repeatedly need to blend the same repos. For i
 ```
 
 Once a registry has been added to `mashup` projects can be generated from the registry using the following command `mashup generate [registry:template]`. Power users can pass in the remote git with `mashup generate [registry:template] -o [git]` or bypass the remote git prompt with `mashup generate [registry:template] --passive`.
+
+#### Note
+* Git urls can be either http or ssh
+* If destination folder does not exist it will be created
+* Repos are cloned into a temporary directory and then moved to their final destination
+* Any files with the same name being moved to the same destination folder will be overridden
+* In order to clone into the current working directory use a '.' as the destination
 
 ### Adding a registry
 
