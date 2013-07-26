@@ -20,7 +20,7 @@ Running `mashup generate` or `mashup` will present you with the following prompt
 1. Enter files to be cleaned out after cloning (follows mini-match standards), comma delimited
 1. Would you like to clone another? *(repeat step 1)*
 
-Once you respond 'no' you will be prompted for a remote git to push your new project to.
+Once you respond 'no' you will be prompted for a remote git url to push your new project to.
 
 ### Generating from a registry
 
