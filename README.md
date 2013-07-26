@@ -45,7 +45,7 @@ A registry is beneficial when you repeatedly need to blend the same repos. For i
 }
 ```
 
-Once a registry has been added to `mashup` projects can be generated from the registry using the following command `mashup generate [registry:template]`. Power users can pass in the remote git with `mashup generate [registry:template] -o [git]` or bypass the remote git prompt with `mashup generate [registry:template] --passive`.
+Once a registry has been added to `mashup` projects can be generated from the registry using the following command `mashup generate [registry:template]`. Power users can pass in the remote git with `mashup generate [registry:template] --remote [git]` or bypass the remote git prompt with `mashup generate [registry:template] --no-remote`.
 
 #### Note
 * Git urls can be either http or ssh
@@ -75,14 +75,12 @@ mashup -g registry:template1
 
 **Generate from registry skipping remote git url prompt**
 ```
-mashup generate registry:template1 --passive
-mashup -g registry:template1 -p
+mashup generate registry:template1 --no-remote
 ```
 
 **Generate from registry with remote git url**
 ```
-mashup generate registry:template1 --origin https://github.com/user/new-project
-mashup -g registry:template1 -o https://github.com/user/new-project
+mashup generate registry:template1 --remote https://github.com/user/new-project
 ```
 
 **Add new registry with prompts**
