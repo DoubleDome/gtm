@@ -18,7 +18,7 @@ Running `mashup generate` or `mashup` will present you with the following prompt
 1. Enter a git url (http or ssh)
 1. Enter a destination folder
 1. Enter files to be cleaned out after cloning (follows mini-match standards), comma delimited
-1. Would you like to clone another? (repeat step 1)
+1. Would you like to clone another? *(repeat step 1)*
 
 Once you respond 'no' you will be prompted for a remote git to push your new project to.
 
